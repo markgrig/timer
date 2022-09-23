@@ -1,0 +1,53 @@
+:root {
+    --main-background: #4666B1;
+    --primary-color: #4666B1;
+    --default-text-color: #ffffff;
+    --donate-item-text-color: #000000;
+    --default-border-color: #ffffff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+        min-height: 100vh;
+        max-height: 100vh;
+        height: 100vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+
+    color: var(--default-text-color);
+    background: var(--main-background);
+
+}
+
+.main-title {
+    text-align: center;
+    font-size: 200%;
+}
+
+.timer-container{
+    padding: 80px 30px 80px 30px;
+    box-sizing: border-box;
+    height: 400px;
+    width: 600px;
+    background-color: #46b1543b;
+}
+.js-image {
+    width: 300px;
+    padding-bottom: 20px;
+}
+.founded-text {
+    text-align: center;
+    font-size: 160%;
+}
+.timer-text {
+    text-align: center;
+    font-size: 180%;
+}
+
+
